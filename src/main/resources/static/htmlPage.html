@@ -10,12 +10,12 @@
             border-collapse: collapse;
         }
         th, td {
-            border: 1px solid #dddddd;
+            border: 5px solid #919191;
             padding: 8px;
             text-align: left;
         }
-        th {
-            background-color: #f2f2f2;
+        td {
+            border: 5px solid #919191; /* Dodajemy obramowanie do każdej komórki */
         }
     </style>
 </head>
@@ -23,7 +23,8 @@
 
 <h2>Sample Table</h2>
 
-<table>
+<table style="width: 300px; ">
+    <caption>Tytuł tabeli</caption>
     <thead>
     <tr>
         <th>Name</th>
